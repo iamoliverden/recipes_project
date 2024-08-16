@@ -38,7 +38,7 @@ The Recipes Project is a full-stack web application designed to manage and share
    ```bash
    python manage.py runserver
 
-4. **Navigate to the frontend directory (recipes-frontend) and install frontend dependencies**
+4. **Navigate to the frontend directory (recipes_frontend) and install frontend dependencies**
 
    ```bash
    npm install
