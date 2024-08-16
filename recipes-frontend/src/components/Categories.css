@@ -1,0 +1,28 @@
+/* Categories.css */
+
+.categories-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.category-select {
+  margin: 20px auto;
+  width: 300px;
+}
+
+.selected-category {
+  margin-top: 20px;
+}
+
+.category-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.category-plate {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  display: inline-block;
+}
