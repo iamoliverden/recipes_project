@@ -1,0 +1,31 @@
+/*RecipeDetail.css*/
+
+.recipe-detail-container {
+  text-align: center;
+  margin: 10px auto;
+  max-width: 1200px;
+
+}
+
+.recipe-detail-title {
+  font-size: 24px;
+  margin-top: 0px; /* Adjust this value to reduce the space */
+  margin-bottom: 20px;
+}
+
+.recipe-detail-image {
+  max-height: 300px;
+  margin: 0 auto 20px auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-detail-description,
+.recipe-detail-ingredients,
+.recipe-detail-method {
+  text-align: left;
+  margin: 10px auto;
+  max-width: 100%;
+}
