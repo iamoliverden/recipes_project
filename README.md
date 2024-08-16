@@ -28,28 +28,23 @@ The Recipes Project is a full-stack web application designed to manage and share
    git clone https://github.com/iamoliverden/recipes_project.git
    cd recipes_project
 
-2. **Create a virtual environment and install backend dependencies**
+2. **Create a virtual environment and install backend dependencies using the attached requirements.txt file**
       ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    pip install -r requirements.txt
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
-3. **Run database migrations**
-   ```bash
-   python manage.py migrate
-
-4. **Start the Django development server**
+3. **Start the Django development server**
 
    ```bash
    python manage.py runserver
 
-5. **Navigate to the frontend directory and install frontend dependencies**
+4. **Navigate to the frontend directory and install frontend dependencies**
 
    ```bash
    cd recipes-frontend
    npm install
 
-6. **Start the React development server**
+5. **Start the React development server**
 
    ```bash
    npm start
